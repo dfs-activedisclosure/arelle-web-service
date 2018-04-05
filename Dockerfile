@@ -31,7 +31,6 @@ RUN git clone --recursive $DFS_ARELLE . \
 
 RUN python3 setup.py install
 
-COPY taxonomies .
 COPY docker-setup.sh .
 
 ENTRYPOINT ["/bin/sh"]
