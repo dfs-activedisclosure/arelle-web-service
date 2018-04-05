@@ -21,7 +21,7 @@ volumes:[
 
     checkout scm
 
-    def chart_dir = "${pwd}/charts/alpine-redis"
+    def chart_dir = "${pwd}/charts/arelle-web-service"
     def inputFile = readFile('Jenkinsfile.json')
     def config = new groovy.json.JsonSlurperClassic().parseText(inputFile)
     println "pipeline config ==> ${config}"
