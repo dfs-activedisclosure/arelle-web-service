@@ -1,6 +1,9 @@
 FROM python:3.5.5-alpine3.4
 
-LABEL AUTHOR="James White"
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+  org.label-schema.vcs-url="https://github.com/dfs-activedisclosure/arelle-web-service" \
+  org.label-schema.build-date=$BUILD_DATE \
+  org.label-schema.docker.dockerfile="/Dockerfile"
 
 ENV DFS_ARELLE https://github.com/dfs-activedisclosure/Arelle
 ENV DFS_EDGARRENDER https://github.com/dfs-activedisclosure/EdgarRenderer
