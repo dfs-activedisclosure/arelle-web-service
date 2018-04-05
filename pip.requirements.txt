@@ -1,0 +1,13 @@
+freetype-py
+lxml
+openpyxl
+pg8000
+rdflib
+isodate
+pypng
+regex
+numpy
+isodate
+dateutils
+sphinx
+matplotlib
