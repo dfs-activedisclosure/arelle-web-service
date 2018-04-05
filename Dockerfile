@@ -1,5 +1,8 @@
 FROM python:3.5.5-alpine3.4
 
+ARG VCS_REF=000000
+ARG BUILD_DATE=0000-00-00
+
 LABEL org.label-schema.vcs-ref=$VCS_REF \
   org.label-schema.vcs-url="https://github.com/dfs-activedisclosure/arelle-web-service" \
   org.label-schema.build-date=$BUILD_DATE \
